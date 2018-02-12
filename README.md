@@ -1,2 +1,3 @@
-# convert-receptor-to-pdbqt
-Script for converting a receptor in any input format to AutoDock's .pdbqt format
+### Script that uses ODDT for converting a receptor to pdbqt format
+
+ODDT: https://github.com/oddt/oddt
