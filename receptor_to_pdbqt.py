@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # Ricardo Avila
-# Script to convert receptors to pdbqt using ODDT
+# Script for converting receptors to pdbqt using ODDT
 
 import sys
 import oddt
