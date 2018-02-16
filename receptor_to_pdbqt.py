@@ -17,6 +17,7 @@ else:
 
     # Read input molecule
     receptor = next(oddt.toolkit.readfile(file_type, receptor_file))
-    
+    # Calculate charges
+    receptor.calccharges()
     # Write output 
     write_vina_pdbqt(receptor, path, flexible=False)
